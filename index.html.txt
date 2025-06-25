@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOLE EDT</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #d90000;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 300px;
+      width: 90%;
+      height: auto;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      padding: 1rem;
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #d90000;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: #ff4d4d;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      margin-bottom: 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Burada logoyu gösteriyoruz -->
+    <img src="sole-logo.jpg" alt="SOLE EDT Logosu" />
+  </header>
+
+  <nav>
+    <a href="#anasayfa">Anasayfa</a>
+    <a href="#hakkinda">Hakkında</a>
+    <a href="#iletisim">İletişim</a>
+  </nav>
+
+  <section id="anasayfa">
+    <div class="card">
+      <h2>Hoş Geldiniz</h2>
+      <p>Bu site Sole EDT için tasarlanmıştır. Temiz ve profesyonel bir görünüm sunar.</p>
+    </div>
+  </section>
+
+  <section id="hakkinda">
+    <div class="card">
+      <h2>Hakkında</h2>
+      <p>Sole EDT, kaliteli temizlik ürünleri ve peçete çözümleri sunan bir markadır.</p>
+    </div>
+  </section>
+
+  <section id="iletisim">
+    <div class="card">
+      <h2>İletişim</h2>
+      <p>Bize ulaşmak için <a href="mailto:iletisim@soledet.com">iletisim@soledet.com</a> adresine mail atabilirsiniz.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 SOLE EDT – Tüm Hakları Saklıdır
+  </footer>
+
+</body>
+</html>
